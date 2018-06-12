@@ -23,7 +23,7 @@
 				<div class="jumbotron ">
 				<div class="container">
 					<div class="header ">
-						<h1 class="display-1">CARLOS SANCHEZ</h1>
+						<h1 class="display-4">CARLOS SANCHEZ</h1>
 					</div>
 
 					<ul class="informationlist">
@@ -37,7 +37,7 @@
 			</div>
 			<!--button to the top-->
 			<button onclick="topFunction()" id="myBtn" title="Go to top">
-				<span class="fa-stack fa-lg"><i class="fa fa-arrow-circle-up  fa-stack-2x"></i></span>
+			<i class="fa fa-chevron-up"></i>
 			</button>
 		
 
@@ -46,14 +46,17 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div style="padding:0"class="col-md-7">
-							<img class="img-responsive" src="me.jpg" style="width:100%">
+							<img class="img-responsive" src="Pictures/me.jpg" style="width:100%">
 						</div>
-						<div style="padding:30px"class="col-md-5 ">
+					
+						<div style="padding:30px"class="card col-md-5 ">
+							
 							<div class="header">
-								<h2>ABOUT ME</h2>
+								<h2 style="text-align:right">ABOUT ME</h2>
 							</div>
 							<div class="panel panel-primary">
 								<div class="panel-body">
+							
 									<p>
 									I recently graduated from Kean University with a major in Computer Science 
 									Major and a minor in Math. As an undergraduate Kean University student, I 
@@ -65,18 +68,21 @@
 									I learned a lot about web and database security. Recently, I have developed and 
 									design a mobile android application using Google Maps API.
 									</p>
+									
 								</div>
 							</div>
+					
 						</div>
 					</div>
 				</div>
 			</div>
-			<div style='background-color:#0C182D;color:white'class=" jumbotron resumetitle">
+			<div class=" jumbotron">
 				<div class="container">
-					<h1 style='text-align:center'>RESUME</h1>
+					<h1 style='text-align:center; font-size: 2em'>RESUME</h1>
 				</div>
 			</div>
 			<div class="myresume">
+		
 				<div class="skills">
 					<div class="panel panel-default">
 						<div class="panel-body">
@@ -85,49 +91,58 @@
 									<h2> <i class="fa fa-asterisk"></i>SKILLS</h2>
 								</div>
 								<div class="row">
-									<div style='padding:20px'class="col-sm-4 backgrouncolor_skills ">
+									<div style='padding:20px'class="col-sm-4  ">
 										<h3>Technical:</h3>
-										<ul>
-											<li>
-											<div class="container">
-												<p>HTML & CSS</p>
-												<div class="skill html">90%</div>
-											</div><!--Endofcontainer--></li>
+										<ul class="techskills">
 											
-											<li>
+											<div class="container ">
+												<p>HTML & CSS</p>
+												<div class="skill html"> 90%</div>
+											</div><!--Endofcontainer-->
+											
+											
 											<div class="container">
 												<p>PHP</p>
 												<div class="skill php">85%</div>
-											</div></li>
-											
-											<li>
+											</div>
+									
 											<div class="container">
 												<p>SQL</p>
 												<div class="skill sql">70%</div>
-											</div></li>
+											</div>
 											
-											<li>
+											
 											<div class="container">
 												<p>JavaScript</p>
-												<div class="skill js">40%</div>
-											</div></li>
+												<div class="skill js">60%</div>
+											</div>
 											
-											<li>
+											
 											<div class="container">
 												<p>Java</p>
 												<div class="skill java">50%</div>
-											</div></li>
+											</div>
 											
-											<li>
+										
 											<div class="container">
 												<p>C++</p>
 												<div class="skill c">50%</div>
-											</div></li>
+											</div>
+											<br>
+											<div class="container">
+											<li> PC troubleshooting</li>
+											</div>
+											<br>
 											
-											<li> Pc troubleshooting</li>
+										<div  class="container icons">
+										<p >Operating Systems:
+											
+										 <i class="fa fa-linux"></i><i class="fa fa-windows"></i> <i class="fa fa-apple"></i>
+									
+										</p>
+										</div>
 										</ul>
 										
-										<h4>Operating Systems: <i class="fa fa-linux"></i>  <i style= "color:#006899"class="fa fa-windows"></i></h4>
 									</div>
 									
 									<div style=' padding:20px' class="col-sm-4 backgrouncolor_skills_hard">
@@ -170,25 +185,25 @@
 				<div class="Experience">
 				<div class="container">
 					<div class="header">
-						<h2><i class="fa fa-mortar-board fa-fw"></i>WORK EXPERIENCE</h2>
+						<h2><i class="fa fa-briefcase fa-fw"></i>WORK EXPERIENCE</h2>
 					</div>
 					<div class="row">
 						<div class="col-md-8">
-							<h4>Eagle Electric Electrical Contractor - Clark, N.J. </h4>
+							<h4> <img class="img-responsive" src="Pictures/eaglelogo.png" salt="Amazon Company Logo">Eagle Electric Electrical Contractor - Clark, N.J. </h4>
 						</div>
 						<div class="col-md-4">
 							<h4>January 2016 - Present</h4>
 						</div><!---EndofColumn--->		
-					</div><!--Endofrow--->
+					</div><!--Endofrow---->
 	
-					
 					<ul>
-						<p>Computer Support Specialist</p>
+						<p style="font-weight:500">Computer Support Specialist</p>
 						<li><p>Identified and resolved hardware and software issues.</p></li>
 						<li><p>Analyzed hardware and software to determine when it was more cost-effective to upgrade.</p></li>
 						<li>Performed on-site and remote analysis of computer and network issues.
 						</li>
-						<p>Front-End Web Developer</p>
+						<br>
+						<p style="font-weight:500">Front-End Web Developer</p>
 						<li><p>Designing company website to develop web presence.</p></li>
 						<li><p>Working directly with client to ensure that all objectives are accomplished.</p></li>
 						<li><p>Contributing to design and development of client and server database application.</p>
@@ -196,22 +211,44 @@
 						<li><p>Applying principles of UX design
 						</p></li>
 						
-						
 					</ul>
+					<br>
 					<!--Experience 2-->
-						<div class="row">
+					<div class="row">
 						<div class="col-md-8">
-						<h4>Amazon - Elizabeth, N.J. </h4>
+					
+							
+						<h4> <img class="img-responsive" src="Pictures/AmazonLogo.png" salt="Amazon Company Logo">Amazon - Elizabeth, N.J. </h4>
 						</div>
 						<div class="col-md-4">
-						<h4>November 22-December 25</h4>
+						<h4>November 22, 2017-December 25, 2017</h4>
 							</div>
 					</div><!--Endofrow--->
 						<ul>
 						<p>Amazon Seasonal Sortation Associate	</p>
 						</ul>
+					<br>
+					<!--EXPERIENCE 3-->
+					<div class="row">
+						<div class="col-md-8">
+					
+							
+						<h4> <img class="img-responsive" src="Pictures/UPSLogo.png" salt="Amazon Company Logo">UPS - Secaucus, N.J. </h4>
+						</div>
+						<div class="col-md-4">
+						<h4>February 12, 2018-Present</h4>
+							</div>
+					</div><!--Endofrow--->
+						<ul>
+						<p>Package Handler	</p>
+						</ul>
 			
-			</div><!---EndOfEducation-->
+			
+			
+			
+			
+			
+			</div><!---EndOfexperience-->
 			<br></br>
 			<div class="awards">
 				<div class="container">
@@ -231,65 +268,139 @@
 			</div><!---Awards--->
 			
 	
-		</div><!----EndOFResume-->
+		</div><!----EndOFexperience-->
+		</div>        <!--  endofresume -->
 			<br></br>
 		<!--Personal Profile-->
 			<div style='padding:5em 0 5em 0' class="personalprofile backgrouncolor_personalprofile">
 				<div class=" container">
-					<div class="header">
-					<h2 onload="typeWriter()"></h2>
-						<h2 id="demo" ></h2>
-
+					<div class="header">	
+					<h1 style="text-align:center;font-weight:600;padding-bottom:2em"> Personal Profile</h1>
+					<!-- <h2 id="demo" onload="typeWriter()"></h2> -->
 					</div>
-					<br></br>
+					<br>
 					<div class="container">
 						<div class="row">
-							<div class="col-md-8">
-								<img class="img-responsive" src="coding.png	" style="width:100%">
+							<div class="col-md-6 ">
+								<img class="img-responsive" src="Pictures/coding.png	" style="width:100%">
 							</div>
 							<br></br>
-							<div class="col-md-4">
-								<h2>My personal interests include:</h2>
+							<div class="col-md-6 ">
+								<h4>My personal interests include:</h4>
+							
 							<ul>
 							<li>Learning about new things related to tech.</li>
 							<li>Watch Udemy and Lynda courses</li>
 						</ul>
 
-							<h2>Conferences and Tech events attended:</h2>
+							
+							</div>
+						</div>
+					</div>
+					<br>
+				<h4 Style="text-align:center">Conferences and Tech events attended:</h4>
 							<table class="table table-sm table-dark">
 	  <thead>
-	    <tr>
+	    <tr class= "main">
 				<th scope="col">#</th>
-	      <th scope="col">Date</th>
 	      <th scope="col">Event</th>
+	      <th scope="col">Date</th>
 	    </tr>
 	  </thead>
 	  <tbody>
 	    <tr>
 	      <th scope="row">1</th><!--Dates-->
- 				<td>Amazon Alexa Dev</td>
-			  <td>10/24/17</td>
+		
+ 				<td>
+				  <button class="accordion">The Internet of Things</button>
+				<div id="conference"class="panel">
+				<p>This syposium was organized by Kean University Small Business Developement in collaboration with the Cybersecurity Center at Kean University to inform on the following.</p>
+	  
+	  <ul>
+		<li>
+					
+
+					The internet of things and Disaster Mitigation. 
+					Dark Web Memo. 
+		</li>
+		<li>
+					An understanding of the differences between the Deep and 
+					Dark web.
+		</li>
+					Origins of the dark web, and how to access and navigate the 
+					dark-net 
+		<li>
+					Overview of cryptocurrency
+		</li>
+		<li>
+					Live Demonstration of Tails OS and tour of TOR
+			</li>
+	  
+        </ul>	
+						</div>
+			</td>	
+
+			  <td>06/08/17</td>
 	    </tr>
 	    <tr>
-	      <th scope="row">2</th><!--Events-->
-				 <td>Amazon Alexa Dev</td>
+	      <th scope="row" >2</th><!--Events-->
+				 <td>
+<button class="accordion">Amazon Alexa Dev </button>
+<div id="conference"class="panel">
+				 	  	 	  <p>Alexa Dev Days are free, interactive events from Amazon and sponsored by Intel. Engage in hands-on workshops where you will learn to create voice experiences and hear the latest on UI design and industry trends.</p>
+
+			</div>
+</td>
 	       <td>10/24/17</td>
 	    </tr>
+		  <tr>
+	      <th scope="row">3</th><!--Events-->
+				 <td>
+					<button class="accordion">Cybersecurity Awareness Day</button>
+					 	<div id="conference"class="panel">
+				 	  	  <p>Speakers: AT&ampT, Bank of America, FBI, Google, Johnson &amp Johnson <br>
+		 Kean University Alumni & Students	
+			</p>
+			</div>
+				 </td>
+				 
+				
+				 
+				 
+				 
+				 
+				 
+	       <td>10/27/17</td>
+	    </tr>
 	  </tbody>
-	</table>
-							</div>
-						</div>
-					</div>
+	</table>	
+					
+					
 				</div>
 			</div>
 			</div><!--EndofWholePage-->
 			<footer class="contactme text-center background_footer">
 				<div class="container">				
-					<i class="fa fa-copyright"><?php echo date('Y');?></i> 
+					<i style='font-weight:700; font-size:2em;'class="fa fa-copyright"> 2018</i> 
 				</div>
 			</footer>
 	</body>
 	<script>
+			//Typewriter
+		var i = 0;
+var txt = 'Lorem ipsum typing effect!'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+	
+	
+	
 	window.onscroll = function() {scrollFunction()};
 
 		function scrollFunction() {
@@ -303,5 +414,28 @@
 			document.body.scrollTop = 0;
 			document.documentElement.scrollTop = 0;
 		}	
+		
+		
+		
+		var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+		
+
+
+	
+//$(.accordion).css("background-color", "yellow");	
+		
 	</script>
 </html>
