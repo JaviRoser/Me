@@ -274,5 +274,5 @@ td {
 #myBtn:hover {
     background-color: #343a40;
     color: #EFEFEFFF;
-    transition: 0.9s;
+    transition: 1000ms;
 }
