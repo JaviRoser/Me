@@ -4,7 +4,7 @@ This is a personal website to show my resume. It was developed using mainly CSS.
 This site is under developement as I continue improving my skills as a web developer
 
 ## Build with 
-* Boostrap 4.1.x
+* Boostrap 4.1.3
 
 see a live version: https://javiroser.github.io/Me/
 
