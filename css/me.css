@@ -14,9 +14,11 @@ Letter Color:#393E46
 }
 
 
+
 /*This fit the content to several screen sizes*/
 
 @media screen and (max-width: 768px) {}
+
 
 
 
@@ -36,6 +38,7 @@ ul.informationlist i {
 }
 
 
+
 /*About Me*/
 
 .card {
@@ -47,11 +50,13 @@ ul.informationlist i {
 }
 
 
+
 /* On mouse-over, add a deeper shadow */
 
 .card:hover {
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4);
 }
+
 
 
 
@@ -76,6 +81,7 @@ ul.informationlist i {
 }
 
 
+
 /*Title summary and resume*/
 
 .summary,
@@ -86,6 +92,7 @@ ul.informationlist i {
 .jumbotron {
     background-color: white;
 }
+
 
 
 
@@ -100,6 +107,7 @@ h1 {
 }
 
 
+
 /*    Resume     */
 
 .myresume h2 {
@@ -111,6 +119,7 @@ h1 {
 .myresume h3 {
     font-size: 1.2em !important;
 }
+
 
 
 
@@ -177,6 +186,7 @@ h1 {
 
 
 
+
 /*OS Icons*/
 
 .icons .fa {
@@ -184,6 +194,7 @@ h1 {
     font-size: 2em;
     padding-right: 0.5em
 }
+
 
 
 
@@ -198,6 +209,7 @@ h1 {
   color: #393E46;*/
     background-image: Pictures/coding.png;
 }
+
 
 
 /* Table*/
@@ -259,6 +271,7 @@ td {
 
 
 
+
 /*Footer*/
 
 .background_footer {
@@ -266,6 +279,7 @@ td {
     color: #393E46;
     padding: 50px;
 }
+
 
 
 
