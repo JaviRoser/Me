@@ -2,167 +2,188 @@
     July 4,2017
 Designed by Carlos Sanchez*/
 
+
 /*
 
 Letter Color:#393E46
- 	   color:#006899 (Blue)
+     color:#006899 (Blue)
 */
 
-#wholepage{
-	color: #393E46 !important;
+#wholepage {
+    color: #393E46 !important;
 }
+
 
 /*This fit the content to several screen sizes*/
 
-@media screen and (max-width: 768px) {
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 768px) {}
 
 
 
 /*Color all the icons*/
 
 
+/*    header      */
 
-/*		header			*/
-ul.informationlist{
+ul.informationlist {
     list-style-type: none;
-	text-decoration:none;
+    text-decoration: none;
     padding: 0;
-	
-
 }
-ul.informationlist i{
+
+ul.informationlist i {
     padding-right: 10px;
 }
+
 
 /*About Me*/
 
 .card {
     /* Add shadows to create the "card" effect */
-	
-    box-shadow: 0 0.5px 1px 0 rgba(0,0,0,0.0);
+    box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.0);
     transition: 0.3s;
 
     line-height: 1.5em;
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
-}
 
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4);
+}
 
 
 
 /*button to the top*/
+
 #myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;`
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    `
 }
-#myBtn:hover{
-	 box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+
+#myBtn:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
+
 
 /*Title summary and resume*/
-.summary, .jumbotron{
-	margin:0;
+
+.summary,
+.jumbotron {
+    margin: 0;
 }
 
-.jumbotron{
-background-color:white;
+.jumbotron {
+    background-color: white;
 }
+
 
 
 /*Name and resume title*/
-h1{
-	font-family: 'Francois One', sans-serif;
+
+h1 {
+    font-family: 'Francois One', sans-serif;
 }
 
-.summary p{
-	text-align:justify;
+.summary p {
+    text-align: justify;
 }
 
-/*		Resume		 */
 
-.myresume h2{
-	padding-bottom:0.5em;
-	font-weight:700;
-	font-size:1.5em;
+/*    Resume     */
+
+.myresume h2 {
+    padding-bottom: 0.5em;
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
-.myresume h3{
-	font-size:1.2em !important;
+.myresume h3 {
+    font-size: 1.2em !important;
 }
+
 
 
 /*Skills bar*/
 
-.skill{
-	Text-align:right;
-	line-height:10px;
-	color:white;
-	padding:10px;
-	margin-bottom:0.9em;
+.skill {
+    Text-align: right;
+    line-height: 10px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0.9em;
 }
 
- .techskills {
-	   list-style-type: none !important;
+.techskills {
+    list-style-type: none !important;
     margin: 0 !important;
     padding: 0 !important;
-	font-weight:2em;
-	
+    font-weight: 2em;
 }
 
 
- .techskills p {
-	 font-weight:600;
-	
+.techskills p {
+    font-weight: 600;
 }
 
-.html{width:90%; background-color: #393E46 ;}
-.php{width:85%; background-color:#393E46 ;}
-.sql{width:70%; background-color:#393E46 ;}
-.js{width:60%; background-color:#393E46 ;}
-.java{width:50%; background-color:#393E46 ;}
-.c{width:50%; background-color:#393E46 ;}
-
-.html,.php,.sql,.js,.java,.c{
- font-weight:700;
+.html {
+    width: 90%;
+    background-color: #393E46;
 }
+
+.php {
+    width: 85%;
+    background-color: #393E46;
+}
+
+.sql {
+    width: 70%;
+    background-color: #393E46;
+}
+
+.js {
+    width: 60%;
+    background-color: #393E46;
+}
+
+.java {
+    width: 50%;
+    background-color: #393E46;
+}
+
+.c {
+    width: 50%;
+    background-color: #393E46;
+}
+
+.html,
+.php,
+.sql,
+.js,
+.java,
+.c {
+    font-weight: 700;
+}
+
 
 
 /*OS Icons*/
 
-.icons .fa{
- color:#393E46; font-size: 2em;padding-right: 0.5em}
+.icons .fa {
+    color: #393E46;
+    font-size: 2em;
+    padding-right: 0.5em
+}
 
 
 
@@ -172,36 +193,38 @@ h1{
 
 /*background colors*/
 
-.backgrouncolor_personalprofile{
-	/*background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-	color: #393E46;*/
-	background-image: Pictures/coding.png;
+.backgrouncolor_personalprofile {
+    /*background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: #393E46;*/
+    background-image: Pictures/coding.png;
 }
+
 
 /* Table*/
+
 table {
     border-collapse: collapse;
-	width:50%;
-	
+    width: 50%;
 }
 
 
-
-.main{/*Change the color of the main cell of the table*/
-	background-color:#393E46;
-	color:white;
+.main {
+    /*Change the color of the main cell of the table*/
+    background-color: #393E46;
+    color: white;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid white;
 }
 
 
-/**/
 .accordion {
     background-color: white;
     color: #444;
-	font-weight:700;
+    font-weight: 700;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -212,7 +235,8 @@ table, th, td {
     transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
     background-color: #ccc;
 }
 
@@ -230,35 +254,25 @@ table, th, td {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    color: #393e46;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 /*Footer*/
 
-.background_footer{
-	background-color:white;
-	color:#393E46;
-	padding: 50px;
+.background_footer {
+    background-color: white;
+    color: #393E46;
+    padding: 50px;
 }
 
 
+
+/*Button to the top*/
+
+#myBtn:hover {
+    background-color: #343a40;
+    color: #EFEFEFFF;
+    transition: 0.9s;
+}
